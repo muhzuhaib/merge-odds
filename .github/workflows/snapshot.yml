@@ -1,0 +1,40 @@
+name: snapshot
+
+on:
+  schedule:
+    - cron: "23 6 * * 1-5"
+    - cron: "41 9 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - run: pip install willitmerge==0.1.1 pytest
+      - run: python -m pytest -q
+      - run: python snapshot.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit the snapshot
+        run: |
+          git config user.name "Muhammad Zuhaib Zahid"
+          git config user.email "288755265+muhzuhaib@users.noreply.github.com"
+          git add data README.md
+          if git diff --cached --quiet; then
+            echo "nothing new today"
+            exit 0
+          fi
+          git commit -m "Snapshot for $(date -u +%Y-%m-%d)"
+          git push

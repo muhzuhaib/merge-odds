@@ -1,0 +1,19 @@
+# Popular Python projects measured every weekday. One OWNER/REPO per line.
+python/cpython
+django/django
+pallets/flask
+psf/requests
+encode/httpx
+pydantic/pydantic
+fastapi/fastapi
+pytest-dev/pytest
+astral-sh/ruff
+numpy/numpy
+pandas-dev/pandas
+scikit-learn/scikit-learn
+huggingface/transformers
+home-assistant/core
+PrefectHQ/prefect
+BerriAI/litellm
+vllm-project/vllm
+infiniflow/ragflow
