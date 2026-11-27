@@ -12,26 +12,26 @@ open to newcomers and which slow down.
 <!-- latest:start -->
 | Project | Verdict | Outside PRs | Merged | Merge rate | Median time to merge |
 |---|---|---:|---:|---:|---:|
-| [home-assistant/core](https://github.com/home-assistant/core) | LIKELY | 1465 | 1057 | 92% | 5 h |
-| [python/cpython](https://github.com/python/cpython) | LIKELY | 1455 | 957 | 89% | 1 h |
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | LIKELY | 1142 | 749 | 88% | 8 h |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | LIKELY | 1783 | 939 | 86% | 4 h |
-| [encode/httpx](https://github.com/encode/httpx) | LIKELY | 33 | 5 | 83% | 1 h |
-| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | MIXED | 297 | 185 | 70% | 2 days |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | MIXED | 1637 | 322 | 68% | 22 h |
-| [astral-sh/ruff](https://github.com/astral-sh/ruff) | MIXED | 714 | 368 | 63% | 18 h |
-| [numpy/numpy](https://github.com/numpy/numpy) | MIXED | 358 | 160 | 61% | 35 h |
-| [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | MIXED | 627 | 228 | 51% | 30 h |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | MIXED | 987 | 361 | 51% | 2 days |
-| [django/django](https://github.com/django/django) | UNLIKELY | 412 | 98 | 35% | 3 days |
-| [pydantic/pydantic](https://github.com/pydantic/pydantic) | UNLIKELY | 328 | 94 | 34% | 5 h |
-| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | UNLIKELY | 328 | 75 | 33% | 28 h |
-| [pytest-dev/pytest](https://github.com/pytest-dev/pytest) | UNLIKELY | 292 | 29 | 19% | 8 days |
-| [pallets/flask](https://github.com/pallets/flask) | UNLIKELY | 13 | 0 | 0% | n/a |
-| [fastapi/fastapi](https://github.com/fastapi/fastapi) | UNLIKELY | 131 | 0 | 0% | n/a |
+| [home-assistant/core](https://github.com/home-assistant/core) | LIKELY | 1440 | 1004 | 91% | 5 h |
+| [python/cpython](https://github.com/python/cpython) | LIKELY | 1466 | 965 | 89% | 2 h |
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | LIKELY | 1140 | 746 | 89% | 5 h |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | LIKELY | 1778 | 917 | 87% | 3 h |
+| [encode/httpx](https://github.com/encode/httpx) | LIKELY | 37 | 5 | 71% | 1 h |
+| [PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) | MIXED | 301 | 185 | 70% | 2 days |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | MIXED | 1649 | 324 | 70% | 22 h |
+| [astral-sh/ruff](https://github.com/astral-sh/ruff) | MIXED | 703 | 357 | 62% | 18 h |
+| [numpy/numpy](https://github.com/numpy/numpy) | MIXED | 366 | 161 | 61% | 35 h |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | MIXED | 977 | 360 | 52% | 2 days |
+| [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | MIXED | 625 | 226 | 51% | 30 h |
+| [pydantic/pydantic](https://github.com/pydantic/pydantic) | UNLIKELY | 330 | 94 | 34% | 5 h |
+| [django/django](https://github.com/django/django) | UNLIKELY | 417 | 99 | 34% | 3 days |
+| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | UNLIKELY | 337 | 77 | 34% | 28 h |
+| [pytest-dev/pytest](https://github.com/pytest-dev/pytest) | UNLIKELY | 297 | 32 | 20% | 8 days |
+| [pallets/flask](https://github.com/pallets/flask) | UNLIKELY | 12 | 0 | 0% | n/a |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | UNLIKELY | 130 | 0 | 0% | n/a |
 | [psf/requests](https://github.com/psf/requests) | NO DATA | 0 | 0 | n/a | n/a |
 
-Snapshot of 2026-11-26, pull requests from the last 90 days.
+Snapshot of 2026-11-27, pull requests from the last 90 days.
 <!-- latest:end -->
 
 **Outside PRs** are pull requests from authors who are not members, owners or collaborators.
